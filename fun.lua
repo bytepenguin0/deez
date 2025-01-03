@@ -1,7 +1,7 @@
 local loadUI = function(player)
 	if not player:IsA("Player") then return end
-	
-	local UI = game:GetObjects("rbxassetid://100448890479809")
+
+	local UI = game:GetObjects("rbxassetid://100448890479809")[1]
 
 	--// console
 	game:GetService("LogService").MessageOut:Connect(function(message, messageType)
